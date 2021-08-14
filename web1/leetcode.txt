@@ -1,0 +1,67 @@
+# https://leetcode.com/
+블록1{
+	블록{leetCode}
+	블록{Premium, Explore, Product, Developer, Sing in}
+}
+
+블록2{
+	블록{사진}
+	블록{
+		블록{A New Way~}
+		블록{LeetCode is the best~}
+		블록{Create Account Button}
+	}
+}
+블록3{
+    블록{
+        블록{
+            블록{Start Explorring}
+            블록{이미지}
+        }
+        블록{Explore is a well-ori~}
+        블록{Get Started 버튼}
+    }
+    블록{이미지}
+}
+블록4{
+    블록{
+        블록{이미지}
+        블록{Questions, Community & Contents}
+        블록{Over 1600~}
+        블록{View Questions 버튼}
+
+    }
+    블록{
+        블록{이미지}
+        블록{Companies & Candidates}
+        블록{Not only does~}
+        블록{Business Opportunities 버튼}
+}
+블록5{
+    블록{이미지}
+    블록{Developer}
+    블록{We now support 14 popular}
+}
+블록6{
+    블록{코드}
+    블록{
+        블록{</>Linked List}
+        블록{</>Binary Tree}
+        블록{</>Fibonacci}
+        블록{Create Playground}
+    }
+
+}
+
+블록7{
+    블록{이미지}
+    블록{Made with ♡ in SF}
+    블록{At LeetCode,~}
+}
+블록8{
+    블록{이미지,이미지,이미지,이미지}
+    블록{이미지,이미지,이미지,이미지}
+    블록{이미지,이미지}
+
+}
+
