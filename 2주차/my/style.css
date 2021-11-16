@@ -1,0 +1,66 @@
+/* User Agent CSS *//*
+
+/* HTML의 요소들은 크게 두가지로 분류 */
+/* 한 그룹은 Block, 한 그룹은 Inline 분류*/
+/* 텍스트처럼 취급되는 건 전부 Inline */
+/* 블록처럼 취급되는 건 전부 Block */
+
+/* block : div, nav, h1, h2 */
+/* inline : a, strong, em, img, vedio, audio */
+
+/* Layout *?
+/* 여러개의 block을 어떻게 배치할 것인가? */
+/* flex layout */
+/* Block */
+/* width, height, padding, border, margin */
+/* width: 가로너비 */
+/* height: 세로 높이 */
+/* padding:외곽선부터 콘텐츠까지의 간격{내장재}-배경색이 들어가고 */
+/* border: 외곽선 */
+/* margin:해당 블록으로부터 다른 블록까지의 간격, 배경색이 들어가지 않음(투명), block 영역의 외부 */
+/* Layout 구현체 */
+/* flex */
+.logo{
+    display: flex;
+    padding : 10px;
+    /* padding 속성을 사용할 때에는: 시계방향으로 값을 지정 */
+    /* padding: 10px 10px 10px 10px */
+    /* 상우하좌 */
+}
+.nave-item{
+    display:flex;
+    padding:10px, 5px
+    /* 상 하 = 10px, 좌 우 = 5px */
+    /* padding=10px 5px 8px */
+    /* 상=10px 좌우=5px 하=8px */
+}
+.header{
+    display : flex;
+    background: #000;
+    justify-content: space-between;
+    /* display 속성값을 flex로 지정해주면, 해당 요소가 가진 영역을 flexible layout 영역으로 바꿉니다. */
+    /* flexible layout 영역 내에서는, flexible layout 영역 요소의 자식 요소들을 어떻게 배치할지 결정 */
+    /* flex 레이아웃에서 요소를 어떻게 정렬 시킬 것인가? */
+    /* justify-content: space-between; */
+    /*  */
+}
+.menu-left{
+    display: flex;
+    padding:10px, 5px
+}
+.menu-right{
+    display: flex;
+    padding:10px, 5px
+}
+
+.navigation{
+    display: flex;
+
+}
+.my-menu{
+    display: flex;
+
+}
+
+/* CSS 작성 순서 */
+/* 레이아웃, 블록, 폰트, 색상, 배경, 애니메이션 순으로 작성 */
